@@ -1,0 +1,399 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.map{
+    display: block;
+}
+
+.map-tablet{
+    display: none;
+}
+
+
+.map-desktop{
+    display: none;
+}
+
+
+
+
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.whole-page{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.back-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+
+.back-container-tablet{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-left: 39px;
+}
+
+
+
+.back-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 72px;
+    width: 56px;
+    background: #D5966C;
+}
+
+.back-to-home-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 3.63636px;
+    color: #FFFFFF;
+    background: #151515;
+    height: 72px;
+    width: 208px;
+}
+
+
+.location-container{
+    width: 375px;
+    background: #151515;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.our-location{
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 45px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 48px;
+}
+
+
+.address-title{
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #D5966C;
+    height: 32px;
+    width: 350px;
+    margin-top: 48px;
+}
+
+
+.address{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+
+.location-info{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-bottom: 56px;
+}
+
+
+footer{
+    width: 375px;
+    background: #D5966C;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+
+
+.location-art-gallery-info{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    color: #151515;
+    margin-top: 38px;
+}
+
+.logo-container{
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+    margin-top: 38px;
+    padding-bottom: 38px;
+}
+
+.logo-container i{
+    font-size: 20px;
+}
+
+.art-gallery-small{
+    margin-top: 48px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 768px){
+
+
+    .map-tablet{
+        display: block;
+    }
+
+    .map{
+        display: none;
+    }
+
+
+    .map-desktop{
+        display: none;
+    }
+
+
+.back-container{
+    margin-left: 39px;
+}
+
+
+
+    body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    
+    .whole-page{
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+
+
+
+    .location-container{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        background: #151515;
+        padding: 0;
+    }
+
+
+    .our-location{
+        font-family: 'Big Shoulders Display';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 55px;
+        line-height: 50px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        height: 100px;
+        width: 223px;
+        margin-top: 88px;
+        padding-left: 39px;
+    }
+
+
+    .title-address-info-tablet{
+        padding-top: 36px;
+        padding-left: 68px;
+    }
+
+    .address-title{
+        margin-bottom: 20px;
+    }
+
+
+
+    .address{
+        margin-bottom: 20px;
+    }
+
+
+    .location-info{
+        margin-top: 0;
+        margin-bottom: 80px;
+    }
+
+
+    footer{
+        display: flex;
+        width: 100%;
+        background: #D5966C;
+        padding-left: 39px;
+        height: 200px;
+    }
+
+
+    .art-gallery-small{
+        padding-right: 64px;
+    }
+
+
+    .logo-container{
+        display: flex;
+        column-gap: 30px;
+        align-items: center;
+        padding-bottom: 130px;
+        padding-left: 133px;
+    }
+
+
+
+    .location-art-gallery-info{
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 26px;
+        color: #151515;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 1024px){
+
+
+    .map-tablet{
+        display: none;
+    }
+
+    .map{
+        display: none;
+    }
+
+
+    .map-desktop{
+        display: block;
+    }
+
+
+
+    .back-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        margin-left: 156px;
+    }
+
+
+    footer{
+        display: flex;
+        width: 100%;
+        background: #D5966C;
+        padding-left: 39px;
+        padding-right:35px;
+        height: 200px;
+    }
+
+
+    .footer-padding{
+        width: 100%;
+    }
+
+
+    .location-art-gallery-info{
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 26px;
+        color: #151515;
+        margin-top: 38px;
+        padding-left: 200px;
+        padding-right: 370px;
+    }
+
+
+
+    .location-container{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        background: #151515;
+        padding: 0;
+    }
+
+}
+
+
+
+
+
+
+
+
